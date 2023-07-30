@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Lora', serif;
+}
+
+html,body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+    background-color: #1B1A1F;
+    border-radius: 15px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    padding: 25px 10px;
+    color: #DFE2F6;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #2F313D;
+}
+
+input::placeholder{
+    color: #DFE2F6;
+}
+
+.calc{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    user-select: none;
+}
+
+.row button{
+    width: 100px;
+    padding: 5px 0;
+    margin: 5px 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #22222A;
+    color: #DFE2F6;
+}
+
+.symbol{
+    background-color: #414659 !important;
+}
+
+#reset{
+    background-color: #5F395E;
+}
+
+#result{
+    background-color: #2E4480;
+}

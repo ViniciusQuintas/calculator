@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2b5f25770.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <input type="text" name="calc" disabled>
+            
+            <div class="row">
+                <button id="reset" value="C">C</button>
+                <button class="symbol" value="(">(</button>
+                <button class="symbol" value=")">)</button>
+                <button class="symbol" value="/">/</button>
+            </div>
+            <div class="row">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button class="symbol" value="*">*</button>
+            </div>
+            <div class="row">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button class="symbol" value="+">+</button>
+            </div>
+            <div class="row">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button class="symbol" value="-">-</button>
+            </div>
+            <div class="row">
+                <button value=".">.</button>
+                <button value="0">0</button>
+                <button value="x"><i class="fa-solid fa-delete-left"></i></button>
+                <button value="=" id="result">=</button>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <script src="js/bundle.js"></script>
+    
+</body>
+</html>
