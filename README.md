@@ -1,2 +1,5 @@
-# calculator
-Este é um projeto simples de uma calculadora básica implementada em TypeScript. Ela foi desenvolvida com o objetivo de praticar o uso do TypeScript e a programação orientada a objetos.
+# Calculadora em TypeScript
+Este projeto é uma calculadora básica criada em TypeScript com recursos de Programação Orientada a Objetos (POO). Ela foi desenvolvida para fins educacionais, demonstrando a utilização de TypeScript e a interação com o DOM para criar uma interface interativa.
+<br>
+<br>
+![page](src/assets/screenshot/page.png)
