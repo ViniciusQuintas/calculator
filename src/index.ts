@@ -56,7 +56,8 @@ class Calculator {
       const result: number = this.parser.parse(this.expression).evaluate({});
 
       if (typeof result === "number") {
-        if (!isNaN(result) || !isFinite(result)) {
+        if (isNaN(result) || !isFinite(result)) {
+          this.expression = ""
           this.calculatorElements().calcInput.value = "";
           this.errorMessage();
         } else {
